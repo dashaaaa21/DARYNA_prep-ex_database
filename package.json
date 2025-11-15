@@ -1,0 +1,30 @@
+{
+  "name": "daryna-prep-ex",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "seed": "ts-node ./prisma/seed.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dashaaaa21/DARYNA_prep-ex_database.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dashaaaa21/DARYNA_prep-ex_database/issues"
+  },
+  "homepage": "https://github.com/dashaaaa21/DARYNA_prep-ex_database#readme",
+  "dependencies": {
+    "@prisma/client": "^6.19.0"
+  },
+  "devDependencies": {
+    "@types/node": "^24.10.1",
+    "prisma": "^6.19.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  }
+}
